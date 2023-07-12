@@ -30,50 +30,55 @@
 }
 
 .inputs {
-  width: 25%;
+  width: 9.96vw;
   height: 11vh;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 1px gray;
+  border: none;
 }
 
 .dot-inputs {
-  width: 25%;
+  width: 9.96vw;
   height: 12vh;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 1px gray;
+  border: none;
 }
 
 .inputs-right {
-  width: 25%;
+  width: 9.97vw;
   height: 11vh;
   display: flex;
   background-color: orange;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 1px gray;
+  border: none;
 }
 
 .equal-inputs {
-  width: 25%;
+  width: 9.97vw;
   height: 12vh;
   display: flex;
   background-color: orange;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 1px gray;
+  border: none;
 }
 
 .zero-input {
-  width: 50%;
+  width: 19.99vw;
   height: 12vh;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 1px gray;
+  border: none;
 }
