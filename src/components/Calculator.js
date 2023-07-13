@@ -51,7 +51,7 @@ const Calculator = () => {
             type="button"
             text="/"
             className="inputs-right"
-            onClick={() => handleButtonClick('/')}
+            onClick={() => handleButtonClick('÷')}
           />
           <Button
             type="button"
