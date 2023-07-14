@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../App.css';
 import Button from './Button';
 import calculate from '../logic/Calculate';
+import Quotes from './Quotes';
 
 const Calculator = () => {
   const [display, setDisplay] = useState('0');
@@ -26,6 +27,7 @@ const Calculator = () => {
   };
   return (
     <div className="main">
+      <Quotes />
       <div className="calculator">
         <div className="screen">{display}</div>
         <div className="input-container">
