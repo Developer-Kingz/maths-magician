@@ -29,7 +29,7 @@ const Quotes = () => {
   }, [quotes]);
 
   return (
-    <div>
+    <div className="my-quotes">
       <h1>Quotes of the day</h1>
       <div className="quotes">
         {loading

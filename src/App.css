@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 
-.main {
-  display: flex;
-  align-items: center;
-}
-
 .calculator {
   width: 40%;
   height: 70vh;
-  margin: auto;
+  margin-left: 50vw;
   margin-top: 10vh;
   box-shadow: 0 0 1px gray;
+}
+
+.my-quotes {
+  position: absolute;
+  top: 20vh;
 }
 
 h1 {
