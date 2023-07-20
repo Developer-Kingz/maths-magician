@@ -1,13 +1,13 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; // For extending expect with additional matchers
-import { MemoryRouter } from 'react-router-dom'; // Import MemoryRouter to wrap the Home component
+import '@testing-library/jest-dom/extend-expect';
+import { MemoryRouter } from 'react-router-dom';
 import Home from './Home';
 
 // Mock the react-router useLocation hook
 jest.mock('react-router-dom', () => ({
-  ...jest.requireActual('react-router-dom'), // Keep all non-mocked exports as they are
-  useLocation: () => ({ pathname: '/' }), // Mock the useLocation hook to return a pathname
+  ...jest.requireActual('react-router-dom'),
+  useLocation: () => ({ pathname: '/' }),
 }));
 
 test('renders welcome message', () => {
@@ -17,8 +17,6 @@ test('renders welcome message', () => {
       <Home />
     </MemoryRouter>,
   );
-
-  // Act (No action needed for this test)
 
   // Assert (Check if the welcome message is rendered)
   const welcomeMessage = getByText(/Welcome To Our Page/i);
