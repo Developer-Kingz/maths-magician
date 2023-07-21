@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Navbar correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="navbar"
+    >
+      <div
+        class="logo"
+      >
+        <h1>
+          Math Magician
+        </h1>
+      </div>
+      <div
+        class="nav"
+      >
+        <ul>
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            <li>
+              Home
+            </li>
+          </a>
+          <a
+            class=""
+            href="/calculator"
+          >
+            <li>
+              Calculator
+            </li>
+          </a>
+          <a
+            class=""
+            href="/quotes"
+          >
+            <li>
+              Quotes
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
