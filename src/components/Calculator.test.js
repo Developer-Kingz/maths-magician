@@ -12,6 +12,4 @@ describe('Calculator', () => {
     );
     expect(asFragment()).toMatchSnapshot();
   });
-
-  // Add more test cases here as needed.
 });
