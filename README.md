@@ -110,8 +110,16 @@ npx eslint .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--   GitHub: [@Developer-Kingz](https://github.com/Developer-Kingz)
--   linkedIn: [Kingsley(Chidozie)Igbor](https://www.linkedin.com/in/kingsley-igbor-14b04720b/)
+👤 **Kingsley(Chidozie)Igbor**
+
+- GitHub: [@Developer-Kingz](https://github.com/Developer-Kingz)
+- linkedIn: [Kingsley(Chidozie)Igbor](https://www.linkedin.com/in/kingsley-igbor-14b04720b/)
+
+👤 **Chongtham Ruby Devi**
+
+- GitHub: [@rubydevi](https://github.com/rubydevi)
+- Twitter: [@arieabyss](https://twitter.com/ariesabyss)
+- LinkedIn: [Chongtham Ruby Devi](https://www.linkedin.com/in/chongtham-bhoomika/)
 
 <!-- FUTURE FEATURES -->
 
